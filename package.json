@@ -1,0 +1,29 @@
+{
+  "name": "ebay-clone",
+  "version": "1.0.0",
+  "description": "App to advertise selling stuff and buy. React, express, SQL, Node.js",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/coderHook/second-handshop2.0.git"
+  },
+  "keywords": [
+    "React.js",
+    "Node.js",
+    "SQL",
+    "Sequelize",
+    "Express.js",
+    "Javascript"
+  ],
+  "author": "coderHook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderHook/second-handshop2.0/issues"
+  },
+  "homepage": "https://github.com/coderHook/second-handshop2.0#readme"
+}
